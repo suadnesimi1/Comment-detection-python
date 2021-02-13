@@ -1,0 +1,20 @@
+                                             ReadMe
+
+
+Öncelikle os, pandas, nltk, regex ve en önemlisi Sklearn gibi gerekli tüm modülleri ithal etmekle başlıyoruz.Ayrıca,
+Sklearn kütüphanesi bir makine öğrenme algoritması Support Vector Machine kullanacak.
+Kitaplıkları içe aktardıktan sonra, sonraki görevimiz verilerin etiketini kaldırmaktır. Etiketler, belirli bir incelemenin
+gerçek veya aldatıcı bir sınıfa ait olup olmadığı konusunda modelin incelemeler arasında ayrım yapmasına yardımcı olacaktır.
+os, metin dosyalarının bulunduğu klasörler ve alt klasörler üzerinde çoğaltma sağlar, fnmatch yalnızca metin dosyalarını
+filtrelemek için kullanışlıdır ve klasörde bulunan diğer her şeyi yok sayar, pandalar verileri satırlar ve sütunlar biçiminde
+yerleştirmeye yardımcı olur. Regex, belirttiğimiz modele göre verilerin çıkarılmasına yardımcı olur. Nltk, yasaklanmış kelimelerin
+kaldırılmasına yardımcı olan doğal bir dil paketidir. Sklearn, verileri işlemek, verileri vektörleştirmek, makineyi öğrenmek ve
+doğruluğu belirlemek için bir algoritma kullanarak veri noktaları arasındaki sınırı öğrenmek için kullanılacak bir dizi kitaplık sunar.
+Modülleri içe aktardıktan sonra kodu oluşturmaya başlarız. Başlangıçta klasörü, alt klasörleri ve .txt dosyalarını açacağımız yardımı
+ile birkaç satır yazıyoruz.
+Etiketleri çıkarmak için bir tür filtreye ihtiyacımız olduğu gözlemlenebilir.
+Listenin bir veri çerçevesi oluşturmak için Etiketler etiket adı verilen bir listeden çıkarıldıktan sonra.
+Tüm etiketleri çıkardıktan sonra, yorumları metin dosyalarından çıkarma zamanı!
+Son olarak, tüm bu projeyi tamamlamak için bunu makine öğrenimi modelini Destek Vektör Makineleri'nin uygulanmasının yardımıyla yapıyoruz.
+Bunu uyguladıktan sonra, modelin performansını analiz etmek için karışıklık matrisini, doğruluk puanını ve sınıflandırma raporunu çiziyoruz.
+Sonuçta projenin çıktısını alıyoruz.
